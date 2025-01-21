@@ -15,3 +15,20 @@ var isActive = true;
 console.log("Employee Name:", employeeName, "Type:", typeof employeeName);
 console.log("Employee ID:", employeeID, "Type:", typeof employeeID);
 console.log("Is Active:", isActive, "Type:", typeof isActive);
+// Task 2: Primitive Data Types
+// Product Details
+
+// Declare a variable for the product's name
+let productName = "Wireless Keyboard";
+
+// Declare a constant for the product's price
+const productPrice = 49.99;
+
+// Declare a variable to indicate product availability
+var isAvailable = true;
+
+// Log the values and their types to the console
+console.log("Product Name:", productName, "Type:", typeof productName);
+console.log("Product Price:", productPrice, "Type:", typeof productPrice);
+console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+
