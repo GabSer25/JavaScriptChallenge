@@ -31,4 +31,27 @@ var isAvailable = true;
 console.log("Product Name:", productName, "Type:", typeof productName);
 console.log("Product Price:", productPrice, "Type:", typeof productPrice);
 console.log("Is Available:", isAvailable, "Type:", typeof isAvailable);
+// Task 3: Number Data Type
+// Financial Transactions
+
+// Declare a variable for the account balance
+let accountBalance = 1000.00; // Initial balance
+
+// Perform basic arithmetic operations and log the updated values
+
+// Add a deposit of 200
+accountBalance += 200;
+console.log("After Deposit: $", accountBalance);
+
+// Subtract a withdrawal of 150
+accountBalance -= 150;
+console.log("After Withdrawal: $", accountBalance);
+
+// Multiply balance by 1.05 to simulate a 5% interest rate
+accountBalance *= 1.05;
+console.log("After Interest: $", accountBalance);
+
+// Divide balance by 2 for a loan repayment
+accountBalance /= 2;
+console.log("After Loan Repayment: $", accountBalance);
 
