@@ -54,4 +54,14 @@ console.log("After Interest: $", accountBalance);
 // Divide balance by 2 for a loan repayment
 accountBalance /= 2;
 console.log("After Loan Repayment: $", accountBalance);
+// Task 4: String Data Type
+// Customer Messaging
 
+// Declare a variable for the customer's name
+let customerName = "Alice";
+
+// Concatenate strings to form a welcome message
+let welcomeMessage = "Hello, " + customerName + "! Welcome to our e-commerce platform.";
+
+// Log the welcome message to the console
+console.log(welcomeMessage);
