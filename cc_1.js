@@ -65,3 +65,20 @@ let welcomeMessage = "Hello, " + customerName + "! Welcome to our e-commerce pla
 
 // Log the welcome message to the console
 console.log(welcomeMessage);
+// Task 5: Boolean Data Type
+// Access Control
+
+// Declare a variable to represent the user login status
+let isLoggedIn = true;
+
+// Declare a variable to represent user role
+let isAdmin = false;
+
+// Logical operations to check access conditions
+if (isLoggedIn && isAdmin) {
+    console.log("Access Granted: Admin Panel");
+} else if (isLoggedIn && !isAdmin) {
+    console.log("Access Granted: User Dashboard");
+} else {
+    console.log("Access Denied: Please log in.");
+}
